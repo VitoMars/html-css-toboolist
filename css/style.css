@@ -75,20 +75,19 @@ button{
 
 ul{
     list-style-type: none;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .lista{
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 .tag{
     font-size: 15px;
+    padding: 7px;
     border-radius: 10px;
     width: 50px;
     color: white;
-
-    padding: 7px;
 }
 
 .lightblue{
@@ -107,11 +106,31 @@ ul{
     background-color: #f29e33;
 }
 
-.pink {
+.pink{
     background-color: #d863a1;
 }
 
-.lightgreen {
+.lightgreen{
     background-color: #b0c926;
+}
+
+.circle{
+    margin-left: -2.5%;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 20px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.check{
+    color: seagreen;
+}
+
+.cross{
+    color: red;
 }
 /* /Main */
