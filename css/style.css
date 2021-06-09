@@ -70,4 +70,23 @@ button{
     width: 9%;
 }
 
+/* Lista */
+
+ul{
+    list-style-type: none;
+    font-size: 38px;
+}
+
+.lista{
+    margin-top: 2%;
+}
+
+.tag{
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.lightblue{
+    background-color: rgb(128, 128, 199);
+}
 /* /Main */
