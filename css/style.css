@@ -28,7 +28,6 @@ body{
    
     vertical-align: middle;
 }
-/* /Header */
 
 /* Main */
 
@@ -48,6 +47,8 @@ nav{
 section{
     margin-left: 2%;
 }
+
+/* Bottoni */
 
 button{
     margin-top: 2%;
@@ -75,15 +76,45 @@ button{
 
 ul{
     list-style-type: none;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .lista{
     margin-top: 3%;
 }
 
+/* Icone check e cross */
+.circle{
+    margin-left: -3%;
+    margin-right: 0.5%;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 14px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.check{
+    color: seagreen;
+}
+
+.cross{
+    color: red;
+}
+
+.elementi{
+    font-size: 20px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+/* Tag Elementi */
+
 .tag{
-    font-size: 15px;
+    font-size: 12px;
     padding: 7px;
     border-radius: 10px;
     width: 50px;
@@ -114,23 +145,4 @@ ul{
     background-color: #b0c926;
 }
 
-.circle{
-    margin-left: -2.5%;
-    border: 1px solid;
-    border-radius: 50%;
-    font-size: 20px;
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-    text-align: center;
-    vertical-align: center;
-}
-
-.check{
-    color: seagreen;
-}
-
-.cross{
-    color: red;
-}
 /* /Main */
