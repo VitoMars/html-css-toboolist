@@ -1,146 +1,146 @@
-*{
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #f6f8f9;
+body {
+  background-color: #f6f8f9;
+  font-family: "Arial", sans-serif;
 }
 
 /* Header */
-.home{
-    background-color: white;
-    height: 100px;
+.home {
+  background-color: white;
+  height: 100px;
 }
 
-#logo{
-    height: 80px;
-    margin: 10px;
-    padding-left: 10px;
-    vertical-align: middle;
+#logo {
+  height: 80px;
+  margin: 10px;
+  padding-left: 10px;
+  vertical-align: middle;
 }
 
-#tobo{
-    font-size: 50px;
-    font-weight: bold;
-    vertical-align: middle;
+#tobo {
+  font-size: 50px;
+  font-weight: bold;
+  vertical-align: middle;
 }
 
 /* Main */
 
-.contenitore{
-    height: 750px;
-    width: 65%;
-    margin: auto;
-    margin-top: 50px;
-    background-color:white;
-    border-radius: 10px;
+.contenitore {
+  height: 750px;
+  width: 65%;
+  margin: auto;
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 10px;
 }
 
-nav{
-    border-bottom: 3px solid #f6f8f9;
+nav {
+  border-bottom: 3px solid #f6f8f9;
 }
 
-section{
-    margin-left: 2%;
+section {
+  margin-left: 2%;
 }
 
 /* Bottoni */
 
-button{
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 1%;
-    border-radius: 5px;
-    height: 35px;
-    font-weight: bold;
-    border: 1px solid grey;
+button {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 1%;
+  border-radius: 5px;
+  height: 35px;
+  font-weight: bold;
+  border: 1px solid grey;
 }
 
-#add_task{
-    background-color: #47adf1;
-    color: white;
-    width: 8%;
+#add_task {
+  background-color: #47adf1;
+  color: white;
+  width: 8%;
 }
 
-#add_section{
-    background-color: white;
-    color: grey;
-    width: 9%;
+#add_section {
+  background-color: white;
+  color: grey;
+  width: 9%;
 }
 
 /* Lista */
 
-ul{
-    list-style-type: none;
-    font-size: 24px;
+ul {
+  list-style-type: none;
+  font-size: 24px;
 }
 
-.lista{
-    margin-top: 3%;
+.lista {
+  margin-top: 3%;
 }
 
 /* Icone check e cross */
-.circle{
-    display: inline-block;
-    margin-left: -3%;
-    margin-right: 0.5%;
-    font-size: 14px;
-    border: 1px solid;
-    border-radius: 50%;
-    height: 20px;
-    width: 20px;
-    text-align: center;
+.circle {
+  display: inline-block;
+  margin-left: -3.5%;
+  margin-right: 0.5%;
+  font-size: 14px;
+  border: 1px solid;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  text-align: center;
 }
 
-.check{
-    color: seagreen;
+.check {
+  color: seagreen;
 }
 
-.cross{
-    color: red
+.cross {
+  color: red;
 }
 
-.elementi{
-    font-size: 20px;
-    margin-top: 1%;
-    margin-bottom: 2%;
+.elementi {
+  font-size: 20px;
+  margin-top: 1%;
+  margin-bottom: 2%;
 }
 
 /* Tag Elementi */
 
-.tag{
-    font-size: 12px;
-    padding: 7px;
-    border-radius: 10px;
-    width: 50px;
-    color: white;
+.tag {
+  font-size: 12px;
+  padding: 7px;
+  border-radius: 10px;
+  width: 50px;
+  color: white;
 }
 
-.lightblue{
-    background-color: #47adf1;
+.lightblue {
+  background-color: #47adf1;
 }
 
-.purple{
-    background-color: #9c72e4;
+.purple {
+  background-color: #9c72e4;
 }
 
-.green{
-    background-color: #64c0a9;
+.green {
+  background-color: #64c0a9;
 }
 
-.orange{
-    background-color: #f29e33;
+.orange {
+  background-color: #f29e33;
 }
 
-.pink{
-    background-color: #d863a1;
+.pink {
+  background-color: #d863a1;
 }
 
-.lightgreen{
-    background-color: #b0c926;
+.lightgreen {
+  background-color: #b0c926;
 }
 
 /* /Main */
