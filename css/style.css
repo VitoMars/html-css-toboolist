@@ -39,8 +39,11 @@ body {
   border-radius: 10px;
 }
 
-nav {
+section {
   border-bottom: 3px solid #f6f8f9;
+}
+
+nav {
   margin-left: 2%;
 }
 
